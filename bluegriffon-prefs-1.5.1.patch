@@ -1,0 +1,24 @@
+--- bluegriffon/app/profile/bluegriffon-prefs.js	2012-05-12 19:20:28.000000000 +0200
++++ bluegriffon/app/profile/bluegriffon-prefs.js-new	2012-05-12 23:51:57.000000000 +0200
+@@ -118,8 +118,8 @@ pref("bluegriffon.structurebar.lang.show
+ pref("bluegriffon.structurebar.role.show", true);
+ 
+ // updates
+-pref("bluegriffon.updates.check.enabled", true);
+-pref("bluegriffon.updates.frequency", "launch");
++pref("bluegriffon.updates.check.enabled", false);
++pref("bluegriffon.updates.frequency", "manually");
+ 
+ pref("html5.enable", true);
+ pref("bluegriffon.defaults.doctype", "kXHTML5");
+@@ -141,6 +141,10 @@ pref("bluegriffon.tabs.position", "cente
+ pref("bluegriffon.osx.dock-integration", true);
+ pref("extensions.getAddons.cache.enabled", false);
+ 
++// Locales
++pref("general.useragent.locale", "");
++pref("intl.locale.matchOS", true);
++
+ // +------------------------------------+
+ // | Disabled for now, too late for 1.4 |
+ // +------------------------------------+
